@@ -14,3 +14,4 @@ CircuitPython 7.3.2 with the adafruit_hid library is used to simulate the contro
 ## Communicating with the board
 
 I am using Visual Studio Code. To set up the IDE properly - install Python and then the three VS Code extensions: Python, Pico-Go and CircuitPython. Remember to choose proper board in the lower right corner. All necessary files should be downloaded by VS Code as a bundle.
+At the end connect one button to GP2 or GP3 and upload config_test.py to the board. If you can scroll the screen with this button (up or down) - you have properly configured the IDE and the board.
