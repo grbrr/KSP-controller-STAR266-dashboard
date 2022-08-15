@@ -10,7 +10,7 @@ CircuitPython 7.3.2 with the adafruit_hid library is used to simulate the contro
 1. Push the BOOTSEL button on RasPi Pico and then plug the USB cable.
 2. Copy the .uf2 file from 'firmware' to the RPI-RP2 disk to install CircuitPython.
 3. Copy whole 'lib' folder to the CIRCUITPY to add necessary libraries.
-4. 
+4. Copy boot.py, hid_gampepad.py and main.py to the CIRCUITPY.
 
 ## Communicating with the board
 
