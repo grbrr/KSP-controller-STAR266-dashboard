@@ -9,4 +9,8 @@ This repository allows you to build a custom Kerbal Space Program controller bas
 CircuitPython 7.3.2 with the adafruit_hid library is used to simulate the controller.
 1. Push the BOOTSEL button on RasPi Pico and then plug the USB cable.
 2. Copy the .uf2 file to the RPI-RP2 disk to install CircuitPython.
-3. Copy whole 'adafruit_hid' folder to the CIRCUITPY/lib to add necessary libraries.
+3. Copy whole 'adafruit_hid' folder to the CIRCUITPY to add necessary libraries.
+
+## Communicating with the board
+
+I am using Visual Studio Code. To set up the IDE properly - install Python and then the three VS Code extensions: Python, Pico-Go and CircuitPython. Remember to choose proper board in the lower right corner. All necessary files should be downloaded by VS Code as a bundle.
